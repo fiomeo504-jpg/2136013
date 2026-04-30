@@ -1,12 +1,5 @@
-
----
-
-## 📁 Файл 3: `.gitignore`
-
-```gitignore
 # Python
 __pycache__/
-*.py[cod]
 *.pyc
 *.pyo
 *.pyd
@@ -16,30 +9,19 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-*.spec
-
-# Файл истории
-tasks.json
+venv/
+env/
+ENV/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
+
+# Data files (опционально)
+# quotes_history.json
+
+# OS
 .DS_Store
-
-# Windows
 Thumbs.db
-desktop.ini
-ehthumbs.db
-
-# Логи
-*.log
-
-# Виртуальное окружение
-venv/
-env/
-ENV/
-env27/
-env36/
